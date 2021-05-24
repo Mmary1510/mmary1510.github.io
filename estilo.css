@@ -1,0 +1,146 @@
+
+html{
+	font-family: "fira sans";
+}
+
+body{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.bannerpresentacion{
+	background-image: url(imagenes/Interiores.jpg);
+	background-size: cover; 
+	background-position: center;
+	padding: 250px 0;
+	text-align: center;
+	color: white;
+	font-family: "fira sans";
+}
+
+h1{
+	font-size: 3.7rem;
+	font-family: "fira sans";
+}
+
+.lema{
+	font-size: 2rem; 
+}
+
+button{
+	padding: .6rem 1rem;
+	border: 1px solid #995309;
+	border-radius: 17px;
+	background-color: #d9750b;
+	color: #fff;
+	font-size: 1.5rem;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+	transition: 0.5s;
+}
+
+button:hover {
+  background-color: #7daff0;
+  color: white;
+}
+
+h2{
+	font-size: 1.8rem;
+	font-family: "fira sans";
+	color: black;
+	text-align: center;
+	padding: 15px 0px;
+}
+
+h3{
+	font-size: 1.6rem;
+	font-family: "fira sans";
+	text-align: justify-all;
+	padding: 15px 0px;
+	margin-left: 50px;
+}
+
+div{
+	display: block;
+}
+
+.card-espacios-dis{
+	box-sizing: border-box;
+	display: flex;
+	background: white;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    border-radius: 15px;
+    margin-left: 105px;
+    margin-right: 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    flex-grow: 0.5;
+    width: 325px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.dis{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.card-espacios-dis:hover img {
+	-webkit-transform:scale(1.17);
+	-moz-transform:scale(1.17);
+	-ms-transform:scale(1.17);
+	-o-transform:scale(1.17);
+	transform:scale(1.17);
+	overflow: hidden;
+}
+
+.descripcion{
+	padding-left: 35px;
+	text-overflow: clip;
+}
+
+.descripcionp{
+	padding-left: 55px;
+	text-overflow: clip;
+}
+
+.footer{
+	size: 807px 123px;
+	border-color: darkgrey;
+	padding-top: 20px;
+}
+
+.card-content{
+	padding-right: 0px;
+	padding-left:0px;
+	background:scroll;
+	box-sizing: content-box;
+	content: flex;
+	text-align: center;
+	border-top-color: grey;
+	box-decoration-break: grey;
+	font-weight: bold cursive;
+	background-color: lightgrey;
+	padding-top: 25px;
+}
+
+.logocompleto{
+	padding-top: 15px;
+}
+
+.disenoweb{
+	text-align: center;
+	background-color: lightgrey;
+	font-weight: bold;
+}
+
+.pfooter{
+	text-align: center;
+	padding-left: 0px;
+	padding-bottom: 5px;
+}
+
+.sin-margen-lateral{
+	margin-left: 15px;
+	margin-right: 15px;
+}
